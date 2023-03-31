@@ -1,12 +1,11 @@
-package com.room2.projectBST;
+package com.room2.bstProject;
 
-import com.room2.projectBST.employeeListProject.*;
+import employeeListProject.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

@@ -1,8 +1,8 @@
-package com.room2.projectBST;
+package com.room2.bstProject;
 
 
-import com.room2.projectBST.employeeListProject.Gender;
-import com.room2.projectBST.employeeListProject.Employee;
+import employeeListProject.Employee;
+import employeeListProject.Gender;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

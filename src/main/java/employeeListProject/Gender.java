@@ -1,4 +1,4 @@
-package com.room2.projectBST.employeeListProject;
+package employeeListProject;
 
 public enum Gender {
 

@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="496f7eac-d7d9-4450-b3ed-8b4331fb66d4" name="Changes" comment="" />
+    <list default="true" id="496f7eac-d7d9-4450-b3ed-8b4331fb66d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorageInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorageInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,9 +42,33 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/crist/IdeaProjects/untitled1/src/main/resources"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\crist\IdeaProjects\untitled1\src\main\resources" />
+      <recent name="C:\Users\crist\IdeaProjects\untitled1\src\test\java\com\room2\bstProject" />
+      <recent name="C:\Users\crist\IdeaProjects\untitled1\src\main\java\employeeListProject" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BinarySearchTreeProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="BinarySearchTreeProject" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
