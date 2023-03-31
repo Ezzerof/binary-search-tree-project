@@ -5,23 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="496f7eac-d7d9-4450-b3ed-8b4331fb66d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorageInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorageInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stringValidator/NameFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stringValidator/NameFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stringValidator/StringValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stringValidator/StringValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,14 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/crist/IdeaProjects/untitled1/src/main/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/crist/IdeaProjects/untitled1/src/main/resources",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\crist\IdeaProjects\untitled1\src\main\resources" />
@@ -116,5 +115,9 @@
       <updated>1680262395652</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
