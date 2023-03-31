@@ -1,4 +1,4 @@
-package com.room2.projectBST.employeeListProject;
+package employeeListProject;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
