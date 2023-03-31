@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="496f7eac-d7d9-4450-b3ed-8b4331fb66d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorageInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorageInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employeeListProject/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorageInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeStorageInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/Gender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeTest.java" afterDir="false" />
     </list>
@@ -23,15 +23,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2NmHZcu7gAlbixS0v0vhGVfJywZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -44,7 +40,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/crist/IdeaProjects/untitled1/src/main/resources"
+    "last_opened_file_path": "C:/Users/crist/IdeaProjects/untitled1/src/main/resources",
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -55,6 +52,22 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="EmployeeFactoryTest.testGetEmployeesWithValidInputSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinarySearchTreeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.room2.bstProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.room2.bstProject" />
+      <option name="MAIN_CLASS_NAME" value="com.room2.bstProject.EmployeeFactoryTest" />
+      <option name="METHOD_NAME" value="testGetEmployeesWithValidInputSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="BinarySearchTreeProject" />
       <method v="2">
@@ -68,6 +81,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeFactoryTest.testGetEmployeesWithValidInputSize" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,5 +97,16 @@
       <updated>1680262395652</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

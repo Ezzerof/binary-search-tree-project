@@ -1,6 +1,6 @@
 package com.room2.bstProject;
 
-import employeeListProject.*;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Assertions;
@@ -9,6 +9,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import com.room2.bstProject.employeeListProject.Employee;
+import com.room2.bstProject.employeeListProject.EmployeeConverter;
+import com.room2.bstProject.employeeListProject.EmployeeFactory;
+import com.room2.bstProject.employeeListProject.EmployeeStorage;
+import com.room2.bstProject.employeeListProject.Gender;
 
 public class EmployeeFactoryTest {
     EmployeeStorage employeeStorage = EmployeeStorage.createEmployeeStorage();
