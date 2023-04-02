@@ -47,13 +47,6 @@ public class App {
     System.out.println(tree.getLeftChild("Griffith"));
     System.out.println(tree.findElement("Griffit").getVal());
 
-
-
-
-
-
-
-
   }
 
 
