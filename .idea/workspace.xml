@@ -5,23 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="496f7eac-d7d9-4450-b3ed-8b4331fb66d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/binaryTree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/binaryTree/BinarySearchTreeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/binaryTree/BinaryTreeStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/binaryTree/ChildNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeCsvService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeStorageStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/BinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorageInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeStorageInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeStorageInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeStorageInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="package-info" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,19 +57,40 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/crist/IdeaProjects/untitled1/src/main/resources",
+    "last_opened_file_path": "D:/SpartaGlobal/Training/JavaTraining/BSTProject/src/test/java/com/room2/bstProject/marcinTests",
     "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\crist\IdeaProjects\untitled1\src\main\resources" />
-      <recent name="C:\Users\crist\IdeaProjects\untitled1\src\test\java\com\room2\bstProject" />
-      <recent name="C:\Users\crist\IdeaProjects\untitled1\src\main\java\employeeListProject" />
+      <recent name="D:\SpartaGlobal\Training\JavaTraining\BSTProject\src\test\java\com\room2\bstProject\marcinTests" />
+      <recent name="D:\SpartaGlobal\Training\JavaTraining\BSTProject\src\main\java\MarcinBSTP" />
+      <recent name="D:\SpartaGlobal\Training\JavaTraining\BSTProject\src\main\java\com\room2\bstProject\binaryTree" />
+      <recent name="D:\SpartaGlobal\Training\JavaTraining\BSTProject\src\main\java\com\room2\bstProject" />
+      <recent name="D:\SpartaGlobal\Training\JavaTraining\BSTProject\src\test\java\com\room2\bstProject" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SpartaGlobal\Training\JavaTraining\BSTProject\src\main\java\com\room2\bstProject\binaryTree" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.room2.bstProject" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="EmployeeFactoryTest.testGetEmployeesWithValidInputSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BinaryTreeTest">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.room2.bstProject.App" />
+      <module name="BinarySearchTreeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.room2.bstProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BinarySearchTreeProject" />
       <extension name="coverage">
         <pattern>
@@ -61,29 +99,67 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.room2.bstProject" />
-      <option name="MAIN_CLASS_NAME" value="com.room2.bstProject.EmployeeFactoryTest" />
-      <option name="METHOD_NAME" value="testGetEmployeesWithValidInputSize" />
+      <option name="MAIN_CLASS_NAME" value="com.room2.bstProject.BinaryTreeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeTest.checkTheSizeOfTheBinaryTreeShouldGet2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinarySearchTreeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.room2.bstProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.room2.bstProject" />
+      <option name="MAIN_CLASS_NAME" value="com.room2.bstProject.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="checkTheSizeOfTheBinaryTreeShouldGet2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="BinaryTreeTest.testAddingNodeToPopulatedTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BinarySearchTreeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.room2.bstProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.room2.bstProject" />
+      <option name="MAIN_CLASS_NAME" value="com.room2.bstProject.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="testAddingNodeToPopulatedTree" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="BinaryTreeTest.testGetRootNodeWhenValueIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BinarySearchTreeProject" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.room2.bstProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.room2.bstProject" />
+      <option name="MAIN_CLASS_NAME" value="com.room2.bstProject.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="testGetRootNodeWhenValueIsNull" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeFactoryTest.testGetEmployeesWithValidInputSize" />
+        <item itemvalue="JUnit.BinaryTreeTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.BinaryTreeTest.testAddingNodeToPopulatedTree" />
+        <item itemvalue="JUnit.BinaryTreeTest.checkTheSizeOfTheBinaryTreeShouldGet2" />
+        <item itemvalue="JUnit.BinaryTreeTest.testGetRootNodeWhenValueIsNull" />
       </list>
     </recent_temporary>
   </component>
@@ -108,5 +184,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -67,4 +67,16 @@ public class Employee {
     public void setHireDate(LocalDate hireDate) {
         this.hireDate = hireDate;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+            "empNo=" + empNo +
+            ", birthDate=" + birthDate +
+            ", firstName='" + firstName + '\'' +
+            ", lastName='" + lastName + '\'' +
+            ", gender=" + gender +
+            ", hireDate=" + hireDate +
+            '}';
+    }
 }

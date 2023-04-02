@@ -1,4 +1,4 @@
-# MySQL Employees Projects Week 3 - SOLID/OOP
+# Binary Search Tree & Employee Factory
 
 ## General Requirements
 
@@ -53,3 +53,5 @@ In addition to the general goals of projects, this project will give trainees an
 - Use a nested class to represent a node in the tree - ONLY IF WE HAVE COVERED THIS AND IT IS APPROPRIATE
 - The tree should allow for multiple employees with the same ```last_name```
 - Allow the user to search for a specific employee by ```last_name```
+
+
