@@ -5,7 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="496f7eac-d7d9-4450-b3ed-8b4331fb66d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/binaryTree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/binaryTree/BinarySearchTreeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/binaryTree/BinaryTreeStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/binaryTree/ChildNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeCsvService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeStorageInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeStorageStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/userInterface/UserInterfaceStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/userInterface/UserPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/EmployeeStorageInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employeeListProject/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stringValidator/InputChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/employees.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/employees.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/room2/bstProject/EmployeeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +67,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "chris",
+    "git-widget-placeholder": "Merging chris",
     "last_opened_file_path": "C:/Users/crist/IdeaProjects/untitled1/src/main/resources",
     "settings.editor.selected.configurable": "vcs.Git"
   }
