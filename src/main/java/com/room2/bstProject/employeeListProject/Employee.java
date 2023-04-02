@@ -70,13 +70,11 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
-            "empNo=" + empNo +
-            ", birthDate=" + birthDate +
-            ", firstName='" + firstName + '\'' +
-            ", lastName='" + lastName + '\'' +
-            ", gender=" + gender +
-            ", hireDate=" + hireDate +
-            '}';
+        return "Employee number = " + empNo +
+            ", \nBirth date = " + birthDate +
+            ", \nFirst name = " + firstName +
+            ", \nLast name = " + lastName +
+            ", \nGender = " + gender +
+            ", \nHire date = " + hireDate + "\n";
     }
 }

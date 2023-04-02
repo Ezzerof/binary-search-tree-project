@@ -1,4 +1,1 @@
-[ERROR] 2023-04-02 16:48:15.242 [main] App - Cannot invoke "String.split(String)" because "employeeData" is null
-java.lang.NullPointerException: Cannot invoke "String.split(String)" because "employeeData" is null
-	at com.room2.bstProject.employeeListProject.EmployeeConverter.createEmployeeFromData(EmployeeConverter.java:15) [classes/:?]
-	at com.room2.bstProject.App.main(App.java:39) [classes/:?]
+[ERROR] 2023-04-02 18:32:47.486 [main] App - java.lang.NullPointerException: Cannot invoke "com.room2.bstProject.binaryTree.BinarySearchTree$TreeNode.getEmployee()" because "node" is null
