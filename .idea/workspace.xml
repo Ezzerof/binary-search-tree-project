@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="496f7eac-d7d9-4450-b3ed-8b4331fb66d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stringValidator/NameFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stringValidator/NameFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stringValidator/StringValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stringValidator/StringValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +22,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2NmHZcu7gAlbixS0v0vhGVfJywZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,6 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "chris",
     "last_opened_file_path": "C:/Users/crist/IdeaProjects/untitled1/src/main/resources",
     "settings.editor.selected.configurable": "vcs.Git"
   }
@@ -81,19 +73,6 @@
       <option name="MAIN_CLASS_NAME" value="com.room2.bstProject.EmployeeTest" />
       <option name="METHOD_NAME" value="testEmployeeConstructor" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="BinarySearchTreeProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="BinarySearchTreeProject" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
