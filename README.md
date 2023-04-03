@@ -1,4 +1,4 @@
-#Employees Projects - SOLID/OOP
+# Employees Projects - SOLID/OOP
 
 This project is a group project that must be run as Scrum projects, and the group must consist of 5 or 6 members. The project aims to apply SOLID and OO principles, use the MVC pattern where appropriate, and well-known design patterns. It must include comprehensive JUnit testing or equivalent, log4j2 for appropriate runtime logging or equivalent, appropriate exception handling, and be hosted on GitHub with thorough documentation through a README.md file.
 
