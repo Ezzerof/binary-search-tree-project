@@ -6,8 +6,7 @@ import com.room2.bstProject.binaryTree.BinaryTreeStarter;
 import com.room2.bstProject.employeeListProject.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import userInterface.UserInterfaceStarter;
-import userInterface.UserPrinter;
+import com.room2.bstProject.userInterface.UserInterfaceRunner;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,16 +26,17 @@ public class App {
     EmployeeStorageInterface employeeStorage = EmployeeStorage.getEmployeeStorage();
     BinarySearchTreeInterface tree = BinarySearchTree.getBinarySearchTree();
     tree.addElements(employeeStorage.getEmployeeList());
-    System.out.println(tree.traverse());
 
+    //Printing the current employees added to the tree in-order
+    System.out.println(tree.traverse());
+    tree.preOrder(tree.getRootElement());
+    //Runs the user interface
     try {
-      UserInterfaceStarter.getUserInput(tree);
+      UserInterfaceRunner.getUserInput(tree);
     } catch (NullPointerException e) {
         LOGGER.error(e);
     }
-
-
-
+    }
 
 
 //    String employeeData = "1234567,Mr.,Teagan,J,Griffittttt,F,teagan@gmail.com,01/23/1995,04/12/2012,15689";
@@ -65,8 +65,4 @@ public class App {
 //    System.out.println(node.getDuplicate());
 
 
-
   }
-
-
-}

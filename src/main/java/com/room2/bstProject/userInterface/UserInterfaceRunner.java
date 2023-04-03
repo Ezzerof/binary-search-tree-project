@@ -1,14 +1,17 @@
-package userInterface;
+package com.room2.bstProject.userInterface;
 
 import com.room2.bstProject.binaryTree.BinarySearchTree;
 import com.room2.bstProject.binaryTree.BinarySearchTreeInterface;
-import stringValidator.NameFormatter;
-import stringValidator.StringValidator;
+import com.room2.bstProject.stringValidator.NameFormatter;
+import com.room2.bstProject.stringValidator.StringValidator;
 
 import java.util.Scanner;
 
-public class UserInterfaceStarter {
-
+public class UserInterfaceRunner {
+    /*
+        Handles the user input using Scanner object.
+        Interacts with formatter/validator/printer using tree data passed in
+     */
     public static void getUserInput(BinarySearchTreeInterface tree) {
         Scanner scanner = new Scanner(System.in);
         boolean isOn = true;
