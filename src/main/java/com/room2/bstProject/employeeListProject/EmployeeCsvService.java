@@ -8,7 +8,9 @@ import java.io.IOException;
 
 public interface EmployeeCsvService {
   Logger LOGGER = LogManager.getLogger(App.class);
-  //Gets employee data from a CSV file in resources and puts it into storage
+  /*
+
+   */
    static void employeeCSVGetterAndStore(int numberOfEmployeesToGet){
     try {
       String result[] = EmployeeFactory.getEmployees(numberOfEmployeesToGet);

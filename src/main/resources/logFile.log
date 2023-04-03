@@ -1,1 +1,0 @@
-[ERROR] 2023-04-02 18:32:47.486 [main] App - java.lang.NullPointerException: Cannot invoke "com.room2.bstProject.binaryTree.BinarySearchTree$TreeNode.getEmployee()" because "node" is null

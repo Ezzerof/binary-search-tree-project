@@ -9,6 +9,10 @@ import java.time.format.DateTimeFormatter;
 
 public interface EmployeeConverter {
     Logger LOGGER = LogManager.getLogger(App.class);
+    /*
+        Uses data from the CSV service to create an employee object and return it to caller
+
+     */
     static Employee createEmployeeFromData(String employeeData) {
         try {
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("M/d/yyyy");

@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class EmployeeFactory {
-
+    //Provided factory for CSV data
     public static String[] getEmployees(int numEmployees) throws IOException {
         if (numEmployees < 1 || numEmployees > 1000)
             throw new IllegalArgumentException("Argument 'numEmployees' must be between 1 and 1000");

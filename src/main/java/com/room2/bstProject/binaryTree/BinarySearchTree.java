@@ -92,9 +92,11 @@ public class BinarySearchTree implements BinarySearchTreeInterface {
        }
     }
 
-    //Helper method for adding a node to the tree
-    //Compares last_name of an employee object to the current nodes value (last_name) to decide where to insert
-    //Allows for duplicate names
+    /*
+    Helper method for adding a node to the tree
+    Compares last_name of an employee object to the current nodes value (last_name) to decide where to insert
+    Allows for duplicate names
+    */
     public void addElementHelper(TreeNode node, Employee element) {
         try {
             if (element.getLastName().compareTo(node.val) < 0) {

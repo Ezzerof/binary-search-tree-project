@@ -19,6 +19,9 @@ public class Employee {
         this.gender = gender;
         this.hireDate = hireDate;
     }
+    /*
+        Getters and setters for Employee objects
+     */
 
     public int getEmpNo() {
         return empNo;
