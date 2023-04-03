@@ -1,6 +1,6 @@
 # Binary Search Tree Project
 
-An application that allows users to create, update, sort and search through employee information. We utilised a binary search tree to sift and sort through the large employee information data set.
+An application that allows users to create, update, sort and search through a data set, employee information. We leveraged a Binary Search Tree to achieve this.
 
 ## Learning Objectives
 
