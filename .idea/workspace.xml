@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ce859fc-bf1f-4a45-9238-875628f911d1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/stringValidator/NameFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/stringValidator/StringValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/userInterface/UserPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/binaryTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/binaryTree/BinarySearchTree.java" afterDir="false" />
@@ -15,10 +17,10 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeCsvService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeCsvService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/EmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stringValidator/NameFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/stringValidator/NameFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stringValidator/StringValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/stringValidator/StringValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stringValidator/NameFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stringValidator/StringValidator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/userInterface/UserInterfaceStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/userInterface/UserInterfaceRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/userInterface/UserPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/userInterface/UserPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/userInterface/UserPrinter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logFile.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +42,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;git-widget-placeholder&quot;: &quot;connectUserInterface&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "Merging chris"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.room2.bstProject.App" />

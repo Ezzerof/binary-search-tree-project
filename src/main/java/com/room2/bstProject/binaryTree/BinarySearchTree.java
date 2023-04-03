@@ -16,6 +16,7 @@ public class BinarySearchTree implements BinarySearchTreeInterface {
     public class TreeNode {
 
         private String val;
+        private List<Employee> duplicate;
 
         private Employee employee;
         private TreeNode left;
@@ -24,12 +25,18 @@ public class BinarySearchTree implements BinarySearchTreeInterface {
         public TreeNode(Employee employee) {
             this.employee = employee;
             this.val = employee.getLastName();
+            this.duplicate = new ArrayList<>();
+            this.duplicate.add(employee);
             this.left = null;
             this.right = null;
         }
 
         public String getVal() {
             return val;
+        }
+
+        public List<Employee> getDuplicate() {
+            return duplicate;
         }
 
         public Employee getEmployee() {
@@ -112,6 +119,7 @@ public class BinarySearchTree implements BinarySearchTreeInterface {
                     addElementHelper(node.right, element);
                 }
             } else if (element.getLastName().equals(node.val)) {
+                node.duplicate.add(element);
                 if (isEmpty(node.left)) {
                     node.left = new TreeNode(element);
                 } else {
