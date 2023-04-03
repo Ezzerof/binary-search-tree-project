@@ -9,8 +9,7 @@ import com.room2.bstProject.employeeListProject.EmployeeStorageInterface;
 import com.room2.bstProject.employeeListProject.EmployeeStorageStarter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import userInterface.UserInterfaceStarter;
-import userInterface.UserPrinter;
+import com.room2.bstProject.userInterface.UserInterfaceRunner;
 
 public class App {
   private static final Logger LOGGER = LogManager.getLogger(App.class);
@@ -23,34 +22,17 @@ public class App {
     EmployeeStorageInterface employeeStorage = EmployeeStorage.getEmployeeStorage();
     BinarySearchTreeInterface tree = BinarySearchTree.getBinarySearchTree();
     tree.addElements(employeeStorage.getEmployeeList());
-    System.out.println(tree.traverse());
 
+    //Printing the current employees added to the tree in-order
+    System.out.println(tree.traverse());
+    tree.preOrder(tree.getRootElement());
+    //Runs the user interface
     try {
-      UserInterfaceStarter.getUserInput(tree);
+      UserInterfaceRunner.getUserInput(tree);
     } catch (NullPointerException e) {
         LOGGER.error(e);
     }
 
-
-
-
-
-//    String employeeData = "1234567,Mr.,Teagan,J,Griffith,F,teagan@gmail.com,01/23/1995,04/12/2012,15689";
-//    String employeeData1 = "1234567,Mr.,Teagan,J,Griffit,F,teagan@gmail.com,01/23/1995,04/12/2012,15689";
-//    String employeeData2 = "1234567,Mr.,Teagan,J,Griffithhh,F,teagan@gmail.com,01/23/1995,04/12/2012,15689";
-//    Employee employee = EmployeeConverter.createEmployeeFromData(employeeData);
-//    Employee employee1 = EmployeeConverter.createEmployeeFromData(employeeData1);
-//    Employee employee2 = EmployeeConverter.createEmployeeFromData(employeeData2);
-//    Employee employeeNull = EmployeeConverter.createEmployeeFromData(null);
-//    List<Employee> employeeList = new ArrayList<>();
-//    employeeList.add(employee);
-//    employeeList.add(employee2);
-//    employeeList.add(employee1);
-//    tree.addElement(employee);
-//    tree.addElement(employee1);
-//    tree.addElement(employee2);
-//    System.out.println(tree.getLeftChild("Griffith"));
-//    System.out.println(tree.findElement("Griffit").getVal());
 
 
   }
