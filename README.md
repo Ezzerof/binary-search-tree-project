@@ -1,6 +1,6 @@
 # Binary Search Tree Project
 
-An application that allows users to create, update, sort and search through a data set, employee information. We leveraged a Binary Search Tree to achieve this.
+An application that allows users to create, update, sort and search through employee information. We utilised a binary search tree to sift and sort through the large employee information data set.
 
 ## Learning Objectives
 
@@ -30,7 +30,7 @@ An application that allows users to create, update, sort and search through a da
  so that I can find a certain node." 
 
 "As a user, I want to sort the tree in ascending order, 
- so that I can search through ascending order."
+so that I can search through ascending order."
 
 ```
 
@@ -79,16 +79,56 @@ To get started with this project, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Open the project in your preferred IDE.
-3. Configure your MySQL database connection parameters in the `config.properties` file located in the `src/main/resources` folder.
-4. Run `EmployeeFactory.java` to generate random employee data.
-5. Run `App.java` to start the application.
-6. Follow instructions laid out by command-line-interface.
+3. Run `App.java` to start the application.
+4. Follow instructions laid out by command-line-interface.
 
 ##  Our Process
 
 This project was completed over 3 - 5 days. We were given a specification which we used to create user stories. From the user stories, we used a Kanban board to plot our product backlog items. We then used TDD and pair programming to produce it. During our 3 - 5 day sprint, we met in the afternoon to discuss current progress and then we would collectively assign programming-pairs their tickets. We ended our sessions with retros to talk about any blockers, update the kanbam board and to delegate tasks for the next day.
 
 The project aims to apply SOLID and OO principles, use the MVC pattern where appropriate, and well-known design patterns. We developed the application using TDD,(JUnit). We used log4j2 for appropriate runtime logging and applied exception handling where applicable.
+
+## Program Notes
+
+### Employee Objects Useful Methods
+**Getters and setters:**
+
+- `(get/set)EmpNo;`
+- `(get/set)BirthDate;`
+- `(get/set)FirstName;`
+- `(get/set)LastName;`
+- `(get/set)Gender;`
+- `(get/set)HireDate;`
+
+**Convert Employee Object to a String:**
+- `employeeObject.toString()`
+
+### Creating Employee data from a String and storing it manually.
+1. Start storage:
+    - `EmployeeStorageStarter.start();`
+2. Get a reference to the storage instance through the interface:
+    - `EmployeeStorageInterface employeeStorage = EmployeeStorage.getEmployeeStorage();`
+3. Setup data <-> String format required: 
+   - ` Emp ID,Name Prefix,First Name,Middle Initial,Last Name,Gender,E Mail,Date of Birth,Date of Joining,Salary`
+   - *Example String*: `111111,Mr.,John,J,Doe,M,john.doe@johndoe.com,1/31/1981,01/01/2001,111111`
+4. Pass the string to the converter to return an employee object:
+    - `Employee newEmployee = EmployeeConverter.createEmployeeFromData(*Example String*);`
+5. Use reference setup in step 2 to add employee:
+   - `employeeStorage.addEmployeeToList(newEmployee);`
+6. *Optional* Use reference setup in step 2 to access storage methods:
+    - `employeeStorage.getEmployeeList();` - Returns a list of employee objects
+    - `employeeStorage.getEmployeeFromList(n);` - Returns a single employee object
+
+### Reading in Employee data automatically from a CSV file.
+1. Start storage:
+    - `EmployeeStorageStarter.start();`
+2. Get a reference to the storage instance through the interface: 
+   - `EmployeeStorageInterface employeeStorage = EmployeeStorage.getEmployeeStorage();`
+3. Specify amount of data to read & store from CSV: (n = quantity to read in)
+    - `EmployeeCsvService.employeeCSVGetterAndStore(n);`
+4. Use reference setup in step 2 to access storage methods:
+   - `employeeStorage.getEmployeeList();` - Returns a list of employee objects
+   - `employeeStorage.getEmployeeFromList(n);` - Returns a single employee object
 
 ## Contributors
 
