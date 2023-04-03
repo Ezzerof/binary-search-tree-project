@@ -1,12 +1,11 @@
-# Binary Search Tree Project - SOLID/OOP
+# Employees Project
 
-This project is a group project that must be run as Scrum projects, and the group must consist of 5 or 6 members. The project aims to apply SOLID and OO principles, use the MVC pattern where appropriate, and well-known design patterns. It must include comprehensive JUnit testing or equivalent, log4j2 for appropriate runtime logging or equivalent, appropriate exception handling, and be hosted on GitHub with thorough documentation through a README.md file.
+An application that allows users to create, update, sort and search through employee information. We utilised a binary search tree to sift and sort through the large employee information data set.
 
 ## Purpose
 
-The purpose of this project is to give trainees an opportunity to:
-
 * Parse data into a suitable data structure
+* Use the given employee factory design pattern
 * Use the Collections framework
 * Develop a collection class from scratch
 * Create and use a nested class
@@ -14,29 +13,64 @@ The purpose of this project is to give trainees an opportunity to:
 * Provide a user interface and searching capability
 * Use interfaces
 
-## Requirements
+## User Stories
 
-### Phase 1
+```
 
-1. Add the provided factory class, `EmployeeFactory.java`, to a suitable package within your project.
-2. Add the provided sample data file, `employees.csv`, to the `src/main/resources` folder in your project.
-3. Call `EmployeeFactory.getEmployees(n)` to generate an array of random employee data of size n (1 <= n <= 1000).
-4. Employee data is provided as an array of Strings, returned from `getEmployees()`, each String representing:
-    * `emp_no` (up to 8 digits)
-    * `birth_date` (YYYY-MM-DD, ISO 8601 calendar date format)
-    * `first_name` (alpha characters and spaces only)
-    * `last_name` (alpha characters and spaces only)
-    * `gender` (single character)
-    * `hire_date` (YYYY-MM-DD)
-    The values for the employee data will be separated by commas within the String.
-5. Convert each element in the array into an `Employee` object, having created a suitable class, and store it in a `List` using a suitable concrete type.
+"As a user, I want to add a node to an empty tree,
+ so it'll become the root node." 
 
-### Phase 2
+"As a user, I want to add a node to a created tree,
+ so that I can expand the tree." 
 
-1. Once the provided data have been stored in a `List`, convert the `List` to a binary tree using a class you've created for this purpose (using `last_name` as the key).
-2. Use a nested class to represent a node in the tree.
-3. The tree should allow for multiple employees with the same `last_name`.
-4. Allow the user to search for a specific employee by `last_name`.
+"As a user, I want to add multiple nodes to a created tree,
+ so that I can expand the tree with bigger data sets." 
+
+"As a user, I want to search through the tree,
+ so that I can find a certain node." 
+
+"As a user, I want to sort the tree in ascending order, 
+so that I can search through ascending order."
+```
+
+## Sample Acceptance Criteria (Gherkin Script)
+
+```
+
+Scenario: Adding a node to an empty tree
+
+Happy Path: Adding a node to an empty tree
+GIVEN, I have an empty employee database tree
+WHEN, I add a new employee node with employee information
+THEN, the employee node should become the root of the employee database tree
+AND, the employee database tree should no longer be empty
+
+Sad Path: Adding wrong node to empty tree
+GIVEN, I have an empty employee database tree
+WHEN, I add a new employee node with “null” information
+THEN, no tree should be created.
+
+Scenario: Searching through the tree to find a certain node
+
+Happy: Finds the node requested.
+GIVEN, I have populated tree.
+WHEN, I enter  node I want to find.
+AND, press “enter”
+THEN, node I am looking for is displayed.
+
+Sad: Node is not displayed.
+GIVEN, I have populated tree.
+WHEN, I enter  node I want to find.
+AND, press “enter”
+THEN, node I am looking for is not displayed.
+
+Alternative: A different node is displayed than requested
+GIVEN, I have populated tree.
+WHEN, I enter  node I want to find.
+AND, press “enter”
+THEN, different node is displayed.
+
+```
 
 ## Getting Started
 
@@ -44,8 +78,16 @@ To get started with this project, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Open the project in your preferred IDE.
-3. Run `EmployeeFactory.java` to generate random employee data.
-4. Run `App.java` to start the application.
+3. Configure your MySQL database connection parameters in the `config.properties` file located in the `src/main/resources` folder.
+4. Run `EmployeeFactory.java` to generate random employee data.
+5. Run `App.java` to start the application.
+6. Follow instructions laid out by command-line-interface.
+
+##  Our Process
+
+This project was completed over 3 - 5 days. We were given a specification which we used to create user stories. From the user stories, we used a Kanban board to plot our product backlog items. We then used TDD and pair programming to produce it. During our 3 - 5 day sprint, we met in the afternoon to discuss current progress and then we would collectively assign programming-pairs their tickets. We ended our sessions with retros to talk about any blockers, update the kanbam board and to delegate tasks for the next day.
+
+The project aims to apply SOLID and OO principles, use the MVC pattern where appropriate, and well-known design patterns. We developed the application using TDD,(JUnit). We used log4j2 for appropriate runtime logging and applied exception handling where applicable.
 
 ## Contributors
 
