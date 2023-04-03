@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="496f7eac-d7d9-4450-b3ed-8b4331fb66d4" name="Changes" comment="">
+    <list default="true" id="0ce859fc-bf1f-4a45-9238-875628f911d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/userInterface/UserInterfaceStarter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/App.java" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/binaryTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/binaryTree/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/userInterface/UserInterfaceStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userInterface/UserInterfaceStarter.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/room2/bstProject/employeeListProject/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stringValidator/InputChecker.java" beforeDir="false" />
+>>>>>>> f53854c369769d00704658f2633035ea4145ee57
       <change beforePath="$PROJECT_DIR$/src/main/resources/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logFile.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +29,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -67,6 +74,17 @@
       </method>
     </configuration>
     <configuration name="EmployeeFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "connectUserInterface"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.room2.bstProject.App" />
+>>>>>>> f53854c369769d00704658f2633035ea4145ee57
       <module name="BinarySearchTreeProject" />
       <extension name="coverage">
         <pattern>
@@ -74,25 +92,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.room2.bstProject" />
-      <option name="MAIN_CLASS_NAME" value="com.room2.bstProject.EmployeeFactoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeTest.testEmployeeConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BinarySearchTreeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.room2.bstProject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.room2.bstProject" />
-      <option name="MAIN_CLASS_NAME" value="com.room2.bstProject.EmployeeTest" />
-      <option name="METHOD_NAME" value="testEmployeeConstructor" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,24 +99,22 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+<<<<<<< HEAD
         <item itemvalue="JUnit.EmployeeFactoryTest" />
         <item itemvalue="JUnit.EmployeeTest.testEmployeeConstructor" />
+=======
+>>>>>>> f53854c369769d00704658f2633035ea4145ee57
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="496f7eac-d7d9-4450-b3ed-8b4331fb66d4" name="Changes" comment="" />
-      <created>1680262395652</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1680262395652</updated>
-    </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
+=======
+>>>>>>> f53854c369769d00704658f2633035ea4145ee57
 </project>
