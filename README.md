@@ -30,7 +30,7 @@ An application that allows users to create, update, sort and search through a da
  so that I can find a certain node." 
 
 "As a user, I want to sort the tree in ascending order, 
-so that I can search through ascending order."
+ so that I can search through ascending order."
 
 ```
 
