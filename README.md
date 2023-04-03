@@ -1,8 +1,8 @@
-# Employees Project
+# Binary Search Tree Project
 
 An application that allows users to create, update, sort and search through employee information. We utilised a binary search tree to sift and sort through the large employee information data set.
 
-## Purpose
+## Learning Objectives
 
 * Parse data into a suitable data structure
 * Use the given employee factory design pattern
@@ -31,6 +31,7 @@ An application that allows users to create, update, sort and search through empl
 
 "As a user, I want to sort the tree in ascending order, 
 so that I can search through ascending order."
+
 ```
 
 ## Sample Acceptance Criteria (Gherkin Script)
