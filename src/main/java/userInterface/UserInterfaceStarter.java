@@ -31,6 +31,7 @@ public class UserInterfaceStarter {
                 System.out.println("You entered: " + formattedName);
                 System.out.println();
                 UserPrinter.printUser(node.getEmployee());
+                System.out.println(node.getDuplicate().toString());
             }
         }
     }
