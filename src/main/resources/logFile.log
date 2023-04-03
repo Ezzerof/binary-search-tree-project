@@ -1,8 +1,0 @@
-[ERROR] 2023-04-03 13:25:36.901 [main] App - For input string: "Emp ID"
-java.lang.NumberFormatException: For input string: "Emp ID"
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
-	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
-	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
-	at com.room2.bstProject.employeeListProject.EmployeeConverter.createEmployeeFromData(EmployeeConverter.java:16) ~[classes/:?]
-	at com.room2.bstProject.employeeListProject.EmployeeCsvService.employeeCSVGetterAndStore(EmployeeCsvService.java:17) [classes/:?]
-	at com.room2.bstProject.App.main(App.java:25) [classes/:?]
